@@ -1,0 +1,4 @@
+{
+  "compilerOptions": { "strict": true, "rootDir": "./", "outDir": "dist" },
+  "include": ["*.ts"]
+}
