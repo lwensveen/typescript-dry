@@ -20,7 +20,7 @@ describe('findDuplicateTypes', () => {
   });
 
   it('renders TUI without crashing', () => {
-    render(<DryUI projectPath="__fixtures__/basic/bad" threshold={1} />);
+    render(<DryUI projectPath="__fixtures__/proj" threshold={1} />);
   });
 
   it('writes JSON report when --json + --out used', () => {
