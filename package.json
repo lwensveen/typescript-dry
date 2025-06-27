@@ -1,7 +1,7 @@
 {
   "name": "typescript-dry",
   "description": "Detect duplicate or near-duplicate type definitions in TypeScript codebases.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Lodewijk Wensveen",
   "bin": {
     "typescript-dry": "dist/cli.js"

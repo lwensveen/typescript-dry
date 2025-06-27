@@ -1,5 +1,11 @@
 # typescript-dry
 
+## 0.1.1
+
+### Patch Changes
+
+- [`cdd7ed6`](https://github.com/lwensveen/typescript-dry/commit/cdd7ed67e514539efc6cbb74afc122b029db36bd) Thanks [@lwensveen](https://github.com/lwensveen)! - Bring version to 0.1.1
+
 ## 0.1.0
 
 ### Minor Changes
