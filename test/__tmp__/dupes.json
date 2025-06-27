@@ -1,0 +1,15 @@
+[
+  {
+    "similarity": 1,
+    "types": [
+      {
+        "file": "/Users/lwensveen/work/typescript-dry/__fixtures__/proj/a.ts",
+        "name": "User"
+      },
+      {
+        "file": "/Users/lwensveen/work/typescript-dry/__fixtures__/proj/b.ts",
+        "name": "UserCopy"
+      }
+    ]
+  }
+]
