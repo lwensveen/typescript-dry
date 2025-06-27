@@ -14,6 +14,7 @@
     "ts-morph": "^26.0.0"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.5",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
@@ -26,6 +27,7 @@
     "eslint": "^9.29.0",
     "husky": "^9.1.7",
     "np": "^10.2.0",
+    "pkg-size": "^2.4.0",
     "prettier": "^3.6.2",
     "syncpack": "^13.0.4",
     "tsup": "^8.5.0",
