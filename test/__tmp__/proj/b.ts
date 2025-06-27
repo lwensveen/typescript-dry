@@ -1,1 +1,0 @@
-export interface FooCopy { id: string }
