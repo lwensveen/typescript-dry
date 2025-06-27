@@ -1,5 +1,5 @@
 import React from 'react';
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, afterAll } from 'vitest';
 import { findDuplicateTypes } from '../src/index.js';
 import { render } from 'ink-testing-library';
 import { DryUI } from '../src/ui.js';
@@ -9,6 +9,8 @@ import path from 'path';
 const tmp = (...p: string[]) => path.join(__dirname, '__tmp__', ...p);
 
 describe('findDuplicateTypes', () => {
+  afterAll(() => fs.rmSync(path.join(__dirname, '__tmp__'), { recursive: true, force: true }));
+
   it('detects exact duplicate interfaces', () => {
     const groups = findDuplicateTypes('__fixtures__/proj', { threshold: 0.8 });
     expect(groups.length).toBeGreaterThan(0);
