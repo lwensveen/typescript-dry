@@ -42,11 +42,12 @@ jobs:
           node-version: 22
           cache: 'npm'
           registry-url: 'https://registry.npmjs.org'
+          token: ${{ secrets.NPM_TOKEN }}
       - run: npm ci
       - run: npm run build
       - name: Publish with changesets
         run: |
           npm run release
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
