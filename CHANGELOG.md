@@ -1,5 +1,11 @@
 # typescript-dry
 
+## 0.1.2
+
+### Patch Changes
+
+- [`a883d7a`](https://github.com/lwensveen/typescript-dry/commit/a883d7a99b5f1c2c06674dae3484a23ce88bedb0) Thanks [@lwensveen](https://github.com/lwensveen)! - Optimized package size
+
 ## 0.1.1
 
 ### Patch Changes
